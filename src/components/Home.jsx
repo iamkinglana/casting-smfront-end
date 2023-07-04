@@ -19,6 +19,7 @@ function Home() {
       {casts.map((cast) => (
         <Cast key={cast} cast={cast} />
       ))}
+      {/* <Cast/> */}
 
     </div>
   );
