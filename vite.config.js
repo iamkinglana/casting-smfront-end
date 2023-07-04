@@ -1,10 +1,13 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { createProxyMiddleware } from 'http-proxy-middleware';
 
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react()],
+export default {
   server: {
-    port: 4000,
+    middleware: {
+      // proxy all requests starting with /casts to http://localhost:3000/casts
+      '/casts': {
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+      },
+    },
   },
-})
+};
