@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
 import UserProfile from './components/UserProfile';
@@ -33,5 +34,17 @@ const App = () => {
     </Router>
   );
 }
+=======
+import Login from './components/Login.jsx';
+
+const App = () => {
+  return (
+    <div>
+      <h1></h1>
+      <Login />
+    </div>
+  );
+};
+>>>>>>> 096d59bc10c328b7da1932094976f651a975155b
 
 export default App;
