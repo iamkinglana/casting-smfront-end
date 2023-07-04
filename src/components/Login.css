@@ -9,6 +9,7 @@
     border-style: inset;
 } */
 
+<<<<<<< HEAD
 
 
 
@@ -119,6 +120,9 @@
 
 
 /* .login-container {
+=======
+.login-container {
+>>>>>>> 17f1110 (Cast)
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,6 +134,7 @@
     border-radius: 8px;
     padding: 20px;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+<<<<<<< HEAD
     /*background-color: #fff;
     max-width: 400px;
     width: 100%;
@@ -367,10 +372,41 @@ input[type='password'] {
   
   input[type='email'],
   input[type='password'] {
+=======
+    background-color: #fff;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: rgba(45, 45, 184, 0.474) 0px 30px 60px -12px inset, rgba(45, 45, 184, 0.474) 0px 18px 36px -18px inset;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type='email'],
+input[type='password'] {
+>>>>>>> 17f1110 (Cast)
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
+<<<<<<< HEAD
   }
   
   .password-input {
@@ -378,6 +414,15 @@ input[type='password'] {
   }
   
   .password-toggle {
+=======
+}
+
+.password-input {
+    position: relative;
+}
+
+.password-toggle {
+>>>>>>> 17f1110 (Cast)
     position: absolute;
     top: 50%;
     right: 5px;
@@ -385,9 +430,15 @@ input[type='password'] {
     background-color: transparent;
     border: none;
     cursor: pointer;
+<<<<<<< HEAD
   }
   
   .btn {
+=======
+}
+
+.btn {
+>>>>>>> 17f1110 (Cast)
     display: block;
     width: 100%;
     padding: 10px;
@@ -397,14 +448,24 @@ input[type='password'] {
     color: #fff;
     font-size: 16px;
     cursor: pointer;
+<<<<<<< HEAD
   }
   
   .link-btn {
+=======
+}
+
+.link-btn {
+>>>>>>> 17f1110 (Cast)
     background-color: transparent;
     border: none;
     color: #007bff;
     font-size: 14px;
     cursor: pointer;
+<<<<<<< HEAD
   }
   
 
+=======
+}
+>>>>>>> 17f1110 (Cast)
